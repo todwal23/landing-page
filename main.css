@@ -1,0 +1,31 @@
+ul {
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+.name {
+    font-size: 34px;
+    padding: 8px 12px 12px 32px;
+    color: red;
+    font-family: cursive;
+    
+}
+
+ul li.navbar {
+    float: right;
+    padding: 12px;
+    font-size: 1.2rem;
+    color: blue;
+}
+
+ul li.navbar a:hover {
+    color: dodgerblue;
+}
