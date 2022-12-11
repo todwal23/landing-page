@@ -1,31 +1,118 @@
 ul {
     list-style: none;
+    margin-right: 100px;
+}
+
+.top-section {
+    background-color: #1f2937;
+    margin: 0;
+    padding: 0;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    margin-left: 100px;
+}
+
+h1,
+p {
+    color: #fff;
+}
+
+.still-top-section {
+    width: 320px;
+    margin-left: 200px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-side-right {
+    margin-right: 200px;
 }
 
 a {
     text-decoration: none;
+    color: aliceblue;
 }
 
 .name {
     font-size: 34px;
     padding: 8px 12px 12px 32px;
-    color: red;
+    color: #fff;
     font-family: cursive;
     
 }
 
-ul li.navbar {
+ul li.navbar  {
     float: right;
     padding: 12px;
     font-size: 1.2rem;
-    color: blue;
+    color: rgb(179, 179, 189);
 }
 
 ul li.navbar a:hover {
     color: dodgerblue;
 }
+
+img.businessCard {
+    margin-bottom: 30px;
+}
+
+.random {
+    text-align: center;
+    font-size: 26px;
+}
+
+.second-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.text {
+    margin: 10px;
+}
+
+.third-section {
+    background-color: #e5e7eb;
+}
+
+.lorem-ipsum p {
+    color: black;
+    padding: 85px 130px 85px 130px;
+}
+
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 65%;
+    background-color: rgb(73, 73, 235);
+    border-radius: 12px;
+}
+
+button {
+    height: 30px;
+    width: 100px;
+    float: right;
+    margin: 39px 30px 0 0;
+    border-radius: 7px;
+    border: 2px solid white;
+    background-color: rgb(73, 73, 235);
+    color: #fff;
+}
+
+.last-class {
+    margin: 39px 0 0 35px;
+}
+
