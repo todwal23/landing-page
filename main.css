@@ -117,3 +117,7 @@ button {
     margin: 39px 0 0 35px;
 }
 
+button:hover {
+    color: black;
+    background-color: white;
+}
