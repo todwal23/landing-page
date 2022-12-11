@@ -99,6 +99,7 @@ img.businessCard {
     width: 65%;
     background-color: rgb(73, 73, 235);
     border-radius: 12px;
+    margin: 50px;
 }
 
 button {
