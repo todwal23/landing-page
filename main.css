@@ -102,7 +102,7 @@ img.businessCard {
     margin: 50px;
 }
 
-button {
+.btn {
     height: 30px;
     width: 100px;
     float: right;
@@ -120,4 +120,32 @@ button {
 button:hover {
     color: black;
     background-color: white;
+}
+
+.about-page {
+    text-align: center;
+    font-weight: 900;
+    font-family: cursive;
+    margin: 40px;
+    padding: 40px;
+    color: black;
+    font-size: 36px;
+    width: 75%;
+
+}
+
+input {
+    margin: 16px 8px 0 88px;
+    padding: 8px;
+    width: 280px;
+    border-radius: 7px;
+
+}
+
+.contact-button {
+    margin: 16px 8px 9px 99px;
+    background-color: #1f2937;
+    color: #fff;
+    padding: 4px 34px 4px 34px;
+    border-radius: 7px;
 }
