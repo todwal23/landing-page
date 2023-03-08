@@ -4,9 +4,10 @@ ul {
 }
 
 .top-section {
-    background-color: #1f2937;
+    background-color: #1566d8;
     margin: 0;
     padding: 0;
+    border-radius: 12px;
 }
 
 .header {
